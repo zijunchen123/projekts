@@ -27,6 +27,6 @@ tiek izmantoti termini. Jaizstrada programmatura, kas izfiltres rindas, kuras ir
 6. Izmantojot Google tulkotaju, aizpilda tulkojumus.
 
 ### izmantotas bibliotekas
-selenium- lai varetu terminus ievadit google tulkotaja
-openpyxl- lai izveidotu un saglabatu excel failu
-time- lai nopauzetu programu, jo tulkojumi uzreiz neparadas pec terminus ievadisanas
+1. selenium- lai varetu terminus ievadit google tulkotaja
+2. openpyxl- lai izveidotu un saglabatu excel failu
+3. time- lai nopauzetu programu, jo tulkojumi uzreiz neparadas pec terminus ievadisanas
