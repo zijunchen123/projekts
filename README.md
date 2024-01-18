@@ -9,8 +9,9 @@ satur tas pasas kludas. Janis ir tik slinks, ka nolema izveidot programmu, kas i
 
 ### kludas apraksts
 1. Satur tuksumus.
-2. Daudzi tulkojumi satur kludas ar Unicode simboliem, visus tulkojumu jaaizpilda no jauna.
+2. Daudzi tulkojumi satur kludas, visus tulkojumu jaaizpilda no jauna.
 3. Atkartojas termini.
+4. teikumu piemeri nesatur kludas.
 
 ### uzdevumu apraksts
 Uzdevums ir izpetit un stradat ar CSV failu, kura ir IT termini, tulkojumi, teikumu piemeri, kuros
@@ -19,10 +20,13 @@ tiek izmantoti termini. Jaizstrada programmatura, kas izfiltres rindas, kuras ir
  no jauna.
  
 ### jaizstrada programs, kas:
-1. Atver CSV failu, izmantojot Unicode kodejumu.
+1. Atver CSV failu
 3. Atrod atkartotus terminus.
 4. Saglaba saraksta datus nez atkartosanas, bez tuksam rindam, bez tulkojumiem.
 5. Izveido Excel failus no saglabata saraksta.
 6. Izmantojot Google tulkotaju, aizpilda tulkojumus.
 
 ### izmantotas bibliotekas
+selenium- lai varetu terminus ievadit google tulkotaja
+openpyxl- lai izveidotu un saglabatu excel failu
+time- lai nopauzetu programu, jo tulkojumi uzreiz neparadas pec terminus ievadisanas
